@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
 
-import 'auth_failure.dart';
-import 'email_address.dart';
-import 'password.dart';
+import '../failures/auth_failure.dart';
+import '../entities/email_address.dart';
+import '../entities/password.dart';
 
 abstract class IAuthFacade {
   Future<Either<AuthFailure, Unit>> registerWithEmailAndPassword({

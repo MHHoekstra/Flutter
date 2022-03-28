@@ -1,4 +1,4 @@
-import 'failures.dart';
+import '../failures/failures.dart';
 
 class UnexpectedValueError extends Error {
   final ValueFailure valueFailure;

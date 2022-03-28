@@ -11,7 +11,7 @@ import 'package:google_sign_in/google_sign_in.dart' as _i5;
 import 'package:injectable/injectable.dart' as _i2;
 
 import 'application/auth/sign_in_form/bloc/sign_in_form_bloc.dart' as _i8;
-import 'domain/auth/i_auth_facade.dart' as _i6;
+import 'domain/auth/repositories/i_auth_facade.dart' as _i6;
 import 'infrastructure/auth/firebase_auth_facade.dart' as _i7;
 import 'infrastructure/core/firebase_injectable_module.dart'
     as _i9; // ignore_for_file: unnecessary_lambdas
