@@ -1,0 +1,34 @@
+name: todo_ddd_firestore
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0-182.1.beta <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.3
+  email_validator: ^2.0.1
+  dartz: ^0.10.1
+  freezed: ^1.1.1
+  freezed_annotation: ^1.1.0
+  flutter_bloc: ^8.0.1
+  firebase_core: ^1.13.1
+  firebase_auth: ^3.3.11
+  google_sign_in: ^5.2.4
+  injectable: ^1.5.3
+  get_it: ^7.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.8
+
+flutter:
+  uses-material-design: true
